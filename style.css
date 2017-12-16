@@ -1,0 +1,54 @@
+#name_prompt_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#name_prompt{
+    background-color: #fff;
+    box-shadow: 0 0 5px #d1d1d1;
+    margin: 20px;
+    padding: 20px;
+}
+
+#name_prompt .title{
+    font-family: Pacifico;
+    font-size: 18px;
+}
+
+#chatroom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 98%;
+    background-color: #fff;
+    box-shadow: 0 0 5px #d1d1d1;
+    margin: 10px;
+    padding: 10px;
+}
+
+#chatroom #messages{
+    flex: 1;
+    overflow-y: scroll;
+    max-height: 90%;
+}
+
+#chatroom #input{
+    display: flex;
+}
+
+#chatroom #input .btn{
+    margin-left: 30px;
+}
+
+#chatroom #messages #m .name{
+    color: #0072c5;
+    font-weight: bold;
+}
+
+#chatroom #messages #m{
+    border-bottom: 1px solid #d1d1d1;
+}
