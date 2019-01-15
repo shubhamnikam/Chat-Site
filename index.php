@@ -12,12 +12,12 @@
        <script>
          // Initialize Firebase
          var config = {
-           apiKey: "AIzaSyAHtY_v3ZoaAm5W9KxWQhhw-spnuEwwmnw",
-           authDomain: "chat-web-c9373.firebaseapp.com",
-           databaseURL: "https://chat-web-c9373.firebaseio.com",
-           projectId: "chat-web-c9373",
-           storageBucket: "chat-web-c9373.appspot.com",
-           messagingSenderId: "29631350538"
+           apiKey: "YOUR OWN API KEY",
+           authDomain: "YOUR AUTH DOMAIN",
+           databaseURL: "YOUR DATABASE URL",
+           projectId: "YOUR PROJECT ID",
+           storageBucket: "YOUR STORAGE ADDRESS",
+           messagingSenderId: "YOUR MSG SENDER ID"
          };
          firebase.initializeApp(config);
 
